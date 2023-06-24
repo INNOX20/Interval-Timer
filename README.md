@@ -18,8 +18,8 @@ const int LED_PIN_3 = 10;  // Pin for the fourth LED
 // Interval timers with their respective callback functions
 IntervalTimer timer0(200, toggleLED0);                // Timer for the first LED with a 200ms interval
 IntervalTimer timer1(seconds(1), toggleLED1);        // Timer for the second LED with a 1s interval
-IntervalTimer timer2(minutes(2), toggleLED2);        // Timer for the third LED with a 2-minute interval
-IntervalTimer timer3(hours(1), toggleLED3);          // Timer for the fourth LED with a 1-hour interval
+IntervalTimer timer2(minutes(2), toggleLED2);        // Timer for the third LED with a 2 minute interval
+IntervalTimer timer3(hours(1), toggleLED3);          // Timer for the fourth LED with a 1 hour interval
 
 void setup() {
   // Configure pin modes for LED control
