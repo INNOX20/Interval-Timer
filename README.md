@@ -6,7 +6,7 @@ The library includes an `IntervalTimer` class that allows you to set time interv
 
 Using this library, developers can easily create applications that require precise timing, such as triggering periodic events, blinking LEDs, controlling actuators, and much more.
 
-#### Simple example code in Arduino
+#### Simplest example in arduino
 ```cpp
 #include <IntervalTimerLib.h>
 
