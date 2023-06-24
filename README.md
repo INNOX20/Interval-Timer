@@ -9,7 +9,7 @@ Using this library, developers can easily create applications that require preci
 #### Example code in Arduino
 
 ```cpp
-#include <IntervalTimer.h>
+#include <IntervalTimerLib.h>
 
 // Pin assignments for LEDs
 const int LED_PIN_0 = 13;  // Pin for the first LED
